@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    border-radius: 100%;
     background: #f4f4f4;
     padding: 40px;
     text-align: center;
@@ -14,10 +15,19 @@ header {
 h1 {
     color: #bb0909;
     font-family: fantasy;
+    border-radius: 2%;
+    background-color: aqua;
+    padding: 4%;
 }
 
 p {
     margin: 15px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20% auto;
 }
 
 a {
@@ -27,4 +37,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+.footer {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
 }
